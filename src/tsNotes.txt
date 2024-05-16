@@ -6,3 +6,4 @@ rootDir - ts file
 outDir - js file
 target - setup es version
 
+tsc--watch
