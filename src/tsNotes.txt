@@ -1,9 +1,16 @@
+
+npm i -g typescript (install setup)
+
+tsc -v(version check)
+
+create index.ts file
+
 tsc index.ts
 
 tsconfig file(tsc --init)
-----------------
+------------------------
 rootDir - ts file
 outDir - js file
 target - setup es version
 
-tsc--watch
+tsc--watch or tsc(manual)
