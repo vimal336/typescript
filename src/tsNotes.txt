@@ -1,0 +1,8 @@
+tsc index.ts
+
+tsconfig file(tsc --init)
+----------------
+rootDir - ts file
+outDir - js file
+target - setup es version
+
