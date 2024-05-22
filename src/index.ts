@@ -41,18 +41,25 @@ const car: { type: string, model: string, year: number } = {
 
 //Optional properties are properties that don't have to be defined in the object definition.
 
-Example without an optional property
-const car: { type: string, mileage: number } = { // Error: Property 'mileage' is missing in type '{ type: string; }' but required in type '{ type: string; mileage: number; }'.
+//Example without an optional property
+
+const car1: { type: string, mileage: number } = { 
   type: "Toyota",
 };
-car.mileage = 2000;
-Example with an optional property
-const car: { type: string, mileage?: number } = { // no error
+
+car1.mileage = 2000;
+
+console.log(car1);
+
+//Example with an optional property
+
+const car2: { type: string, mileage?: number } = { // no error
   type: "Toyota"
 };
-car.mileage = 2000;
 
-console.log(car);
+car2.mileage = 2000;
+
+console.log(car2);
 
 //Tuple
 //A tuple is a typed array with a pre-defined length and types for each index.
