@@ -5,4 +5,4 @@ console.log(x + 4);
 
 let id: number = 5;
 
-id = "str"
+
