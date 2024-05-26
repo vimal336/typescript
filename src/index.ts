@@ -72,9 +72,19 @@ ourTuple = [5, false, 'Coding God was here'];
 //union
 //union is used to assign more than one types in TS
 
+function printStatusCode(code: string | number) {
+    console.log(`My status code is ${code}.`)
+  }
+  printStatusCode(404);
+  printStatusCode('404');
 
+let userinfo: string| number | boolean;
 
+userinfo = "hello";
+userinfo = 4;
+console.log(userinfo);
 
-
+//Enums
+//By default, enums will initialize the first value to 0 and add 1 to each additional value:
 
 
