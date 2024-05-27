@@ -87,4 +87,14 @@ console.log(userinfo);
 //Enums
 //By default, enums will initialize the first value to 0 and add 1 to each additional value:
 
+enum CardinalDirections {
+  North,
+  East,
+  South,
+  West
+};
+            
+let currentDirection = CardinalDirections.North;
 
+// North is the first value so it logs '0'
+console.log(currentDirection);
