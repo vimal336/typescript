@@ -1,0 +1,1 @@
+type studtype = { sname: string; sid: number; ispresent: boolean; std: number }
