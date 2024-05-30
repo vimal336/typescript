@@ -282,6 +282,15 @@ const user = createUser1({ name: "hitesh", isPaid: false });
 console.log(user); // Output: { name: "vimal", isPaid: false }
 
 
+//rest parameter
+
+function restpara(...rest:string[]){
+   return rest
+}
+
+console.log("a","b","c","d")
+
+
 //---------------------------Typescript classes-------------------------------------//
 
 
